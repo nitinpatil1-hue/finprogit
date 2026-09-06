@@ -1,48 +1,32 @@
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
-hi html hru
-wru
-html.
-hurl ubc
+html<!DOCTYPE html>
+<html>
+<head>
+<title>Hello Nitin</title>
+<style>
+  body {
+    text-align: center;
+    padding-top: 200px;
+    transition: background 1s;
+    font-family: Arial;
+  }
+  h1 {
+    font-size: 60px;
+    transition: color 1s;
+  }
+</style>
+</head>
+<body>
+<h1 id="name">Hello Nitin</h1>
+
+<script>
+  const colors = ["red","blue","green","orange","purple","yellow","pink","cyan"];
+  
+  setInterval(() => {
+    let bg = colors[Math.floor(Math.random()*colors.length)];
+    let txt = colors[Math.floor(Math.random()*colors.length)];
+    document.body.style.backgroundColor = bg;
+    document.getElementById("name").style.color = txt;
+  }, 1000);
+</script>
+</body>
+</html>
