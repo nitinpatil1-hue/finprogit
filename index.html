@@ -1,31 +1,31 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Hello Nitin</title>
+<title>Arnav</title>
 <style>
   body {
     text-align: center;
     padding-top: 200px;
-    transition: background 1s;
+    transition: background 0.8s;
     font-family: Arial;
   }
   h1 {
-    font-size: 60px;
-    transition: color 1s;
+    font-size: 50px;
+    transition: color 0.8s;
   }
 </style>
 </head>
 <body>
-<h1 id="name">Hello Nitin</h1>
+<h1 id="msg">Hey Arnav, kas aahes? Tu jevlas ka?</h1>
 
 <script>
-  const colors = ["red","blue","green","orange","purple","yellow","pink","cyan"];
+  const colors = ["red","blue","green","orange","purple","black","pink","#00ffcc"];
   
   setInterval(() => {
     let bg = colors[Math.floor(Math.random()*colors.length)];
     let txt = colors[Math.floor(Math.random()*colors.length)];
     document.body.style.backgroundColor = bg;
-    document.getElementById("name").style.color = txt;
+    document.getElementById("msg").style.color = txt;
   }, 1000);
 </script>
 </body>
